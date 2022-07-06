@@ -1,8 +1,7 @@
 *{
-    margin: auto;
-    padding: 0%;
+margin: auto;
+padding: 0;    
 }
-
 body{
 font-family: 'Arima', cursive;
     padding: 0;
@@ -134,7 +133,11 @@ p{
     display: flex;
     font-weight: 100;
     height: auto;
+    display: 50%;
+    margin: 17px;
+    padding: 1pt;
 }
+
 
 .nav-bar1 {
     height: 50%;
@@ -143,19 +146,42 @@ p{
     padding: 4px;
 
 }
+.nav-bar2 {
+   margin: auto;
+    display: contents;
+}
 
 .nav-bar1 button {
     background-color: rgb(199, 98, 15);
     background-size: cover;
-    width: 120px;
+    width: 140px;
     height: 40px;
+    margin-left: 24px;
+    padding: 4px;
 
 }
+.container {
+    display: flex;
+    margin: 44px;
+    padding: 4px;
 
-.nav-bar2 {
-    width: 500;
-    height: 400;
+    
 }
+.sub-container2 {
+    margin-left: 230px;
+    padding-left: 2px;
+}
+.sub-container2 p{
+    margin-left: -13px;
+}
+
+.sub-container2 button {
+    background-color: chocolate;
+    height: 40px;
+    width: 140px;
+}
+
+
 
 .updates{
     text-align: center;
@@ -176,21 +202,6 @@ p{
 
 }
 
-
-.container{
-    display: flex;
-
-
-}
-.sub-container2{
-    margin: 10px;
-    padding-left: 10px;
-}
-.sub-container2 button{
-    background-color: chocolate;
-    height: 50px;
-    width: 150px;
-}
 .flood{
     display: inline-block;
     margin: 12px;
