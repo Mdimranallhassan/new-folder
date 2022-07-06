@@ -1,0 +1,114 @@
+body{
+    
+    font-family: 'Arima', cursive;
+    padding: 0;
+    margin: 0;
+    display: contents;
+}
+.first-page{
+    background-image:url('/sunamganj.png.jpg');
+}
+.first-page img{
+    background-position: 100%;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.updates{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.from{
+    text-align: center;
+    padding:  40px 30px 20px;
+    margin: 40px 60px;
+    background-color: rgb(238, 174, 95)
+    
+    
+}
+.fotter{
+   
+    background-color: rgb(202, 173, 173);
+    text-align: center;
+}
+.section-type{
+    display:inline-flex;
+    
+}
+.section-type h1{
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(101, 161, 11);
+    border: 1px solid red;
+}
+.section-type h1:hover{
+    color: blueviolet;
+}
+
+.donate-now{
+    display: flex;
+    text-align: center;
+
+}
+.nav-bar{
+    display: flex;
+    margin: 3px;
+    padding: 5px;
+ 
+}
+.div1{
+    background-color: cadetblue;
+    margin: 2px;
+    padding: 5px;
+
+}
+.div1 img{
+    width: 40px;
+    height: 45px;
+    margin-top: 20px;
+}
+.div2{
+    margin: 2px;
+    padding: 5px;
+    background-color: rgb(202, 173, 173);       
+}
+.div2 img{
+    width: 40px;
+    height: 45px;
+    margin-top: 20px;
+}
+.div3{
+    margin: 2px;
+    padding: 5px;
+    background-color: rgb(247, 157, 157);
+}
+.div3 img{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+.toll-box1{
+    display: flex;
+    font-weight: 100;
+    height: auto;
+}
+.nav-bar1{
+    height: 50%;
+    width: 50%;
+    margin: 2px;
+    padding: 1px;
+    border: 1px solid red;
+}
+.nav-bar1 button{
+    background-color: rgb(194, 153, 153);
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    
+}
+.nav-bar2{
+ width: 500;
+ height: 400;
+}
