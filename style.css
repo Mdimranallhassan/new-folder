@@ -1,20 +1,162 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+
 body{
-    
-    font-family: 'Arima', cursive;
+font-family: 'Arima', cursive;
     padding: 0;
     margin: 0;
-    display: contents;
 }
 .first-page{
-    background-image:url('/sunamganj.png.jpg');
+    background-image: url('cover1.jpg');
+    background-repeat: no-repeat;
+   
+    background-position: center;
+    text-align: center;
+    margin-top: 20px;
+
+    
 }
-.first-page img{
-    background-position: 100%;
+.first-page h1{
+    text-align: center;
+    color: rgb(243, 236, 236);
+    margin-top: 40px;
+    padding: 20px;
+}
+.first-page h3{
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    color: rgb(245, 236, 235);
+}
+
+.first-page button{
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(241, 234, 229);
+    width: 180px;
+    height: 50px;
+    margin-bottom: 140px;  
+    background-color: rgb(211, 71, 7);
+    
 }
 h1{
     text-align: center;
     margin-top: 50px;
 }
+p{
+    margin: 13px;
+    padding: 12px;
+}
+.section-type {
+    display: flex;
+
+}
+
+.section-type h1 {
+    margin: 30px;
+    padding: 30px;
+    background-color: gray;
+    border: 1px solid rgb(54, 50, 50);
+}
+#unknow{
+    color: crimson;
+    border: 2px solid crimson;
+    margin: 0;
+    padding: 0;
+}
+#input{
+    text-align: center;
+    display: flex;
+}
+#input button{
+    width: 200px;
+    height: 60px;
+    margin: 25px;
+    padding: 10px;
+    background-color: rgb(167, 37, 14);
+    color: whitesmoke;
+    
+}
+#input input{
+    border-bottom: 1px solid black;
+    display: flex;
+    color: black;
+    margin-top: 2pc;
+    padding: 7pt;
+    border-radius: 4pt;
+}
+.nav-bar {
+    display: flex;
+    margin: 3px;
+    padding: 5px;
+
+}
+
+.div1 {
+    background-color: cadetblue;
+    margin: 2px;
+    padding: 5px;
+
+}
+
+.div1 img {
+    width: 40px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.div2 {
+    margin: 2px;
+    padding: 5px;
+    background-color: rgb(202, 173, 173);
+}
+
+.div2 img {
+    width: 40px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.div3 {
+    margin: 2px;
+    padding: 5px;
+    background-color: rgb(247, 157, 157);
+}
+
+.div3 img {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+.toll-box1 {
+    display: flex;
+    font-weight: 100;
+    height: auto;
+}
+
+.nav-bar1 {
+    height: 50%;
+    width: 50%;
+    margin: 8px;
+    padding: 4px;
+
+}
+
+.nav-bar1 button {
+    background-color: rgb(199, 98, 15);
+    background-size: cover;
+    width: 120px;
+    height: 40px;
+
+}
+
+.nav-bar2 {
+    width: 500;
+    height: 400;
+}
+
 .updates{
     text-align: center;
     padding-left: 10px;
@@ -25,90 +167,67 @@ h1{
     padding:  40px 30px 20px;
     margin: 40px 60px;
     background-color: rgb(238, 174, 95)
-    
-    
 }
-.fotter{
-   
-    background-color: rgb(202, 173, 173);
-    text-align: center;
-}
-.section-type{
-    display:inline-flex;
-    
-}
-.section-type h1{
-    margin: 20px;
-    padding: 30px;
-    background-color: rgb(101, 161, 11);
-    border: 1px solid red;
-}
-.section-type h1:hover{
-    color: blueviolet;
-}
+
 
 .donate-now{
     display: flex;
     text-align: center;
 
 }
-.nav-bar{
+
+
+.container{
     display: flex;
-    margin: 3px;
-    padding: 5px;
- 
-}
-.div1{
-    background-color: cadetblue;
-    margin: 2px;
-    padding: 5px;
+
 
 }
-.div1 img{
-    width: 40px;
-    height: 45px;
-    margin-top: 20px;
+.sub-container2{
+    margin: 10px;
+    padding-left: 10px;
 }
-.div2{
-    margin: 2px;
-    padding: 5px;
-    background-color: rgb(202, 173, 173);       
+.sub-container2 button{
+    background-color: chocolate;
+    height: 50px;
+    width: 150px;
 }
-.div2 img{
-    width: 40px;
-    height: 45px;
-    margin-top: 20px;
+.flood{
+    display: inline-block;
+    margin: 12px;
+    padding: 9px;
+    align-items: center;
 }
-.div3{
-    margin: 2px;
-    padding: 5px;
-    background-color: rgb(247, 157, 157);
-}
-.div3 img{
-    margin: 0px;
-    padding: 0px;
-    margin-top: 0px;
-}
-.toll-box1{
-    display: flex;
-    font-weight: 100;
-    height: auto;
-}
-.nav-bar1{
-    height: 50%;
-    width: 50%;
-    margin: 2px;
-    padding: 1px;
-    border: 1px solid red;
-}
-.nav-bar1 button{
-    background-color: rgb(194, 153, 153);
-    background-size: cover;
-    width: 200px;
-    height: 100px;
+.footer-content{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(13, 14, 15);
     
 }
-.nav-bar2{
- width: 500;
- height: 400;
+.footer-content h5{
+    text-align: center;
+    color: aliceblue;
+    
+}
+.footer-content h1{
+    color: aliceblue;
+
+}
+.footer-button{
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    text-emphasis-color: red;
+}
+.footer-button p{
+    font-size: 16px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: antiquewhite;
+}
+.footer-button span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
 }
